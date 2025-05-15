@@ -1,0 +1,21 @@
+button
+{
+    display:inline-block;
+    padding : auto;
+    background-color: #70a03a;
+    border : true;
+    border-radius : 7px;
+    font-size :16px;
+    cursor:pointer;
+    color:beige;
+    transition : background-color .5s;
+
+}
+
+button:hover
+{
+    background-color:#c1f590;
+}
+button:active{
+    background-color: #297910;
+}
