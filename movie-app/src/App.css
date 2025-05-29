@@ -1,0 +1,19 @@
+.App{
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width:100%;
+  font-size: 22px;
+}
+.search-box{
+  height:10vh;
+
+}
+.search-box input,
+button{
+  box-sizing: border-box;
+  height: 25px;
+  font-size: 20px;
+}
