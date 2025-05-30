@@ -7,4 +7,7 @@
 # cerate a color_box using ReactJS
 # Credit Card number Validator using ReactJS
 # build a song lyrics finder using ReactJS
-# movie trailer app using reactjs
+# movie trailer app using reactjs 
+## ![alt text](image.png)
+# make a avatar generator using reactjs
+## ![alt text](./assets/image.png)
