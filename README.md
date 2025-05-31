@@ -11,3 +11,4 @@
 ## ![alt text](image.png)
 # make a avatar generator using reactjs
 ## ![alt text](./assets/image.png)
+# make a directory using a reactjs
