@@ -13,3 +13,7 @@
 ## ![alt text](./assets/image.png)
 # make a directory using a reactjs
 # creating a react application and moudle installation
+
+# ceeate a paint app using reactjs
+# create a currency convert app using reactjs
+## new changes use pnpm package manager replace npm ,replace vite with create-react-app
