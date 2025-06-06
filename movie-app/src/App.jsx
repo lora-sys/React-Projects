@@ -44,11 +44,11 @@ function App() {
       const query = searchQuery.current.trim();
       if (query) {
         // start loading state
-        setState((prevState )=>({...prevState,loading:true,error:null}));
+        setState((prevState )=>({...prevState,isloading:true,error:null}));
         axios(`${apiUrl}&s=${query}`)
           .then(({ data }) => {
             let results = data?.Search || [];
-            setState((prevState) => ({ ...prevState, results ,loading:false}));
+            setState((prevState) => ({ ...prevState, results ,isloading:false}));
           })
           .catch(error => {
             console.error("Search error:", error);
