@@ -1,19 +1,42 @@
-.App{
-  display: flex;
-  flex-direction:column ;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width:100%;
-  font-size: 22px;
-}
-.search-box{
-  height:10vh;
-
-}
-.search-box input,
-button{
+*{
+  margin:0;
+  padding:0;
   box-sizing: border-box;
-  height: 25px;
-  font-size: 20px;
+}
+body{
+  font-family: "montserrat", sans-serif;
+  background: linear-gradient(to right, #000428, #004e92);
+}
+header{
+  width:100%;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+header h1{
+  text-align: center;
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: 700;
+  padding-left: 50px;
+}
+main{
+  width:100%;
+  max-width: 90%;
+  margin:0 auto;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item{
+  width:20rem;
+  text-align: left;
+}
+.results{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
